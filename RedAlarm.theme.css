@@ -6,6 +6,8 @@
  * @source https://github.com/5TAHUR5/discord_themes
 */
 
+@import url(https://5tahur5.github.io/discord_themes/src/5TAHUR5_Discord.theme.css);
+
 :root {
     --background: 43, 19, 19;
     --background_alt: 67, 19, 27;
@@ -22,6 +24,7 @@
     --accent: 213, 24, 24;
     --font: JetBrainsMono Nerd Font;
 }
+
 
 /* for border message when hover*/
 /* .message__80c10.selected_fd9051, .mouse-mode.full-motion .message__80c10:hover {

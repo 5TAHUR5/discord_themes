@@ -8,6 +8,8 @@
 
 /* palette: https://github.com/Biscuit-Colorscheme/biscuit */
 
+@import url(https://5tahur5.github.io/discord_themes/src/5TAHUR5_Discord.theme.css);
+
 :root {
     --background: 26, 21, 21;
     --background_alt: 45, 36, 36;
@@ -24,6 +26,7 @@
     --accent: 156, 129, 129;
     --font: JetBrainsMono Nerd Font;
 }
+
 
 /* for border message when hover*/
 /* .message__80c10.selected_fd9051, .mouse-mode.full-motion .message__80c10:hover {

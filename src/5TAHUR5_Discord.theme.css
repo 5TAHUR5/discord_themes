@@ -10,6 +10,7 @@
 I took it and remade it from here:
 https://github.com/DiscordStyles/SoftX
 https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/DiscordRecolor/
+https://github.com/CapnKitten/BetterDiscord/blob/master/Themes/Translucence/css/source.css
 */
 
 :root {
@@ -238,13 +239,13 @@ https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/DiscordRecol
 }
 
 .form__13a2c::before {
-    background: transparent;
+    content: none;
 }
 
 
 .userPanelInnerThemed__1804b {
     background: rgb(var(--background_alt));
-} 
+}
 
 
 
@@ -658,3 +659,139 @@ https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/DiscordRecol
 #app-mount .wrapper__7bcde.typeThread__2f91c.modeSelected__487d6 .link__95dc0::after {
     background: rgb(var(--accent));
 }
+
+
+
+
+.backgroundFlash_e5b9ad:not([style$="0);"]) {
+    background-color: rgba(var(--accent), 0.3) !important;
+    transition: 200ms ease-out background-color;
+}
+
+[style="background-color: rgba(148, 156, 247, 0);"].backgroundFlash_e5b9ad {
+    background-color: hsla(var(--accent-hsl), 0) !important;
+    transition: 400ms background-color;
+}
+
+.wrapper__09ecc {
+    margin-left: 68px;
+    margin-right: 16px;
+    background-color: rgb(var(--background_accent)) !important;
+    border-radius: 0;
+}
+
+.wrapper__09ecc:not(.groupStart__56db5),
+.wrapper__09ecc.compact__26766 {
+    margin-top: 2px;
+}
+
+.wrapper__09ecc.cozy_f5c119,
+.wrapper__09ecc.compact__26766 {
+    padding: 8px 8px !important;
+    padding-right: 8px !important;
+    border: 2px solid transparent;
+}
+
+.wrapper__09ecc.cozy_f5c119 .timestamp_cdbd93.alt__6c563 {
+    left: -62px;
+}
+
+.wrapper__09ecc.compact__26766 {
+    padding: 4px;
+    padding-left: 6px;
+}
+
+.wrapper__09ecc.compact__26766 .timestamp_cdbd93 {
+    margin-right: 0.75rem;
+}
+
+.wrapper__09ecc .timestamp_cdbd93 {
+    color: rgb(var(--foreground));
+}
+
+.wrapper__09ecc .timestamp_cdbd93.alt__6c563 {
+    color: rgb(var(--foreground));
+}
+
+
+.wrapper__09ecc.replying_d7b6ad:before {
+    display: none;
+}
+
+.hasThread__58ee2:after {
+    display: none;
+}
+
+.avatar__08316 {
+    width: 40px;
+    height: 40px;
+    top: -2px;
+    left: -50px;
+    margin-top: 0;
+}
+
+.avatarDecoration__14b3c {
+    top: -2px;
+    left: -52px;
+}
+
+.a11y-font-scaled-down .avatar__08316:not(.compact__26766) {
+    top: 0;
+    left: -50px;
+}
+
+.messageListItem__6a4fb {
+    margin-bottom: 4px;
+}
+
+.messageListItem__6a4fb+.wrapper__09ecc,
+.divider_b9338f+.wrapper__09ecc {
+    margin-top: 2px;
+}
+
+.divider_b9338f.hasContent__8519e {
+    border-top: none;
+}
+
+.divider_b9338f.hasContent__8519e:before,
+.divider_b9338f.hasContent__8519e:after {
+    position: absolute;
+    content: " ";
+    width: calc(50% - 60px);
+    height: 1px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    background-color: var(--background-modifier-accent);
+}
+
+.divider_b9338f.hasContent__8519e:before {
+    left: 0;
+}
+
+.divider_b9338f.hasContent__8519e:after {
+    right: 0;
+}
+
+.content_d67847 {
+    width: 120px;
+    padding: 2px 0;
+    background-color: rgb(var(--background_alt));
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+
+.repliedMessage_e2bf4a:before {
+    border-radius: 0;
+    transform: translateX(42px);
+}
+
+.repliedMessage_e2bf4a .replyAvatar_cea07c,
+.repliedMessage_e2bf4a .replyBadge__3d01e,
+.repliedMessage_e2bf4a .executedCommandAvatar__939bc,
+.repliedMessage_e2bf4a .userJoinSystemMessageIcon__4b1ea {
+    margin-left: 42px;
+}
+

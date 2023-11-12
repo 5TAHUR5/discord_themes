@@ -8,6 +8,8 @@
 
 /* palette: https://github.com/thomasabishop/alien-blood-vscode */
 
+@import url(https://5tahur5.github.io/discord_themes/src/5TAHUR5_Discord.theme.css);
+
 :root {
     --background: 43, 19, 19;
     --background_alt: 23, 37, 24;
@@ -24,6 +26,7 @@
     --accent: 132, 138, 42;
     --font: JetBrainsMono Nerd Font;
 }
+
 
 /* for border message when hover*/
 /* .message__80c10.selected_fd9051, .mouse-mode.full-motion .message__80c10:hover {
