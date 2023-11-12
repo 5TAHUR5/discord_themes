@@ -1,0 +1,31 @@
+/**
+ * @name GruvboxDark
+ * @author 5TAHUR5
+ * @version 1.0.0
+ * @description Gruvbox Dark theme.
+ * @source https://github.com/5TAHUR5/discord_themes
+*/
+
+/* palette: https://github.com/morhetz/gruvbox */
+
+:root {
+    --background: 29, 32, 33;
+    --background_alt: 40, 40, 40;
+    --background_urgent: 50, 48, 47;
+    --background_accent: 60, 56, 54;
+    --foreground: 235, 219, 178;
+    --red: 204, 36, 29;
+    --green: 152, 151, 26;
+    --yellow: 215, 153, 33;
+    --orange: 214, 93, 14;
+    --blue: 69, 133, 136;
+    --violet: 177, 98, 134;
+    --gray: 168, 153, 132;
+    --accent: 189, 174, 147;
+    --font: JetBrainsMono Nerd Font;
+}
+
+/* for border message when hover*/
+/* .message__80c10.selected_fd9051, .mouse-mode.full-motion .message__80c10:hover {
+    box-shadow: inset 0 0 3px rgb(var(--foreground));
+} */

@@ -1,0 +1,29 @@
+/**
+ * @name RedAlarm
+ * @author 5TAHUR5
+ * @version 1.0.0
+ * @description Red Alarm theme.
+ * @source https://github.com/5TAHUR5/discord_themes
+*/
+
+:root {
+    --background: 43, 19, 19;
+    --background_alt: 67, 19, 27;
+    --background_urgent: 81, 29, 29;
+    --background_accent: 108, 32, 25;
+    --foreground: 227, 77, 77;
+    --red: 255, 8, 0;
+    --green: 138, 140, 17;
+    --yellow: 185, 125, 27;
+    --orange: 217, 59, 11;
+    --blue: 78, 115, 143;
+    --violet: 190, 45, 67;
+    --gray: 168, 134, 132;
+    --accent: 213, 24, 24;
+    --font: JetBrainsMono Nerd Font;
+}
+
+/* for border message when hover*/
+/* .message__80c10.selected_fd9051, .mouse-mode.full-motion .message__80c10:hover {
+    box-shadow: inset 0 0 3px rgb(var(--foreground));
+} */

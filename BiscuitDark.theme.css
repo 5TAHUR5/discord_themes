@@ -1,0 +1,32 @@
+/**
+ * @name BiscuitDark
+ * @author 5TAHUR5
+ * @version 1.0.0
+ * @description BiscuitDark theme.
+ * @source https://github.com/5TAHUR5/discord_themes
+*/
+
+/* palette: https://github.com/Biscuit-Colorscheme/biscuit */
+
+:root {
+    --background: 26, 21, 21;
+    --background_alt: 45, 36, 36;
+    --background_urgent: 69, 54, 54;
+    --background_accent: 114, 90, 90;
+    --foreground: 255, 233, 199;
+    --red: 207, 34, 62;
+    --green: 149, 154, 107;
+    --yellow: 227, 156, 69;
+    --orange: 240, 115, 66;
+    --blue: 117, 109, 148;
+    --violet: 123, 61, 121;
+    --gray: 156, 129, 129;
+    --accent: 156, 129, 129;
+    --font: JetBrainsMono Nerd Font;
+}
+
+/* for border message when hover*/
+/* .message__80c10.selected_fd9051, .mouse-mode.full-motion .message__80c10:hover {
+    box-shadow: inset 0 0 3px rgb(var(--foreground));
+} */
+

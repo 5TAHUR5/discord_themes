@@ -1,0 +1,29 @@
+/**
+ * @name Nountain
+ * @author 5TAHUR5
+ * @version 1.0.0
+ * @description Nord theme.
+ * @source https://github.com/5TAHUR5/discord_themes
+*/
+
+:root {
+    --background: 25, 25, 25;
+    --background_alt: 38, 38, 38;
+    --background_urgent: 57, 57, 57;
+    --background_accent: 76, 76, 76;
+    --foreground: 240, 240, 240;
+    --red: 196, 158, 160;
+    --green: 158, 196, 159;
+    --yellow: 196, 193, 158;
+    --orange: 206, 177, 136;
+    --blue: 165, 180, 203;
+    --violet: 196, 158, 196;
+    --gray: 136, 136, 136;
+    --accent: 196, 158, 160;
+    --font: JetBrainsMono Nerd Font;
+}
+
+/* for border message when hover*/
+/* .message__80c10.selected_fd9051, .mouse-mode.full-motion .message__80c10:hover {
+    box-shadow: inset 0 0 3px rgb(var(--foreground));
+} */

@@ -1,0 +1,31 @@
+/**
+ * @name Sonokai
+ * @author 5TAHUR5
+ * @version 1.0.0
+ * @description Sonokai theme.
+ * @source https://github.com/5TAHUR5/discord_themes
+*/
+
+/* palette: https://github.com/sainnhe/sonokai */
+
+:root {
+    --background: 24, 24, 25;
+    --background_alt: 34, 35, 39;
+    --background_urgent: 44, 46, 52;
+    --background_accent: 51, 53, 63;
+    --foreground: 226, 226, 227;
+    --red: 252, 93, 124;
+    --green: 158, 208, 114;
+    --yellow: 231, 198, 100;
+    --orange: 243, 150, 96;
+    --blue: 118, 204, 224;
+    --violet: 179, 157, 243;
+    --gray: 127, 132, 144;
+    --accent: 158, 208, 114;
+    --font: JetBrainsMono Nerd Font;
+}
+
+/* for border message when hover*/
+/* .message__80c10.selected_fd9051, .mouse-mode.full-motion .message__80c10:hover {
+    box-shadow: inset 0 0 3px rgb(var(--foreground));
+} */
