@@ -7,13 +7,17 @@ This repository contains the following themes
 - [Biscuit Dark]
 - [Gruvbox Dark]
 - [Sonokai]
+- [Catppuccin]
+- [Edge]
+- [Everforest]
+- [Everforest soft]
+- [Stardew]
 - And file, that removes rounding
 
 ## Installing for Vencord
 ```bash
 git clone https://github.com/5TAHUR5/discord_themes.git
-cd ~/discord_themes
-cp RoundingDestroy.theme.css Sonokai.theme.css AlienBlood.theme.css BiscuitDark.theme.css GruvboxDark.theme.css Mountain.theme.css Nord.theme.css RedAlarm.theme.css ~/.config/Vencord/themes
+cp -r ~/discord_themes/themes/ ~/.config/Vencord/
 rm -r ~/discord_themes
 ```
 
@@ -32,3 +36,8 @@ rm -r ~/discord_themes
    [Biscuit Dark]: <https://github.com/Biscuit-Colorscheme/biscuit/>
    [Gruvbox Dark]: <https://github.com/morhetz/gruvbox/>
    [Sonokai]: <https://github.com/sainnhe/sonokai/>
+   [Catppuccin]: <https://github.com/catppuccin/catppuccin/>
+   [Edge]: <https://github.com/sainnhe/edge/>
+   [Everforest]: <https://github.com/sainnhe/everforest/>
+   [Everforest soft]: <https://github.com/sainnhe/everforest/>
+   [Stardew]: <https://github.com/TorchedSammy/dotfiles/blob/master/.config/awesome/themes/colors/stardew.lua/>

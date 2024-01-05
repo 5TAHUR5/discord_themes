@@ -1,0 +1,34 @@
+/**
+ * @name Catppuccin
+ * @author 5TAHUR5
+ * @version 1.0.0
+ * @description Catppuccin theme.
+ * @source https://github.com/5TAHUR5/discord_themes
+*/
+
+/* palette: https://github.com/catppuccin/catppuccin */
+
+@import url(https://raw.githubusercontent.com/5TAHUR5/discord_themes/main/src/5TAHUR5_Discord.theme.css);
+
+:root {
+    --background: 30, 30, 46;
+    --background_alt: 49, 50, 68;
+    --background_urgent: 69, 71, 90;
+    --background_accent: 88, 91, 112;
+    --foreground: 205, 214, 244;
+    --red: 243, 139, 168;
+    --green: 166, 227, 161;
+    --yellow: 249, 226, 175;
+    --orange: 250, 179, 135;
+    --blue: 137, 180, 250;
+    --violet: 203, 166, 247;
+    --gray: 110, 108, 126;
+    --accent: 203, 166, 247;
+    --font: JetBrainsMono Nerd Font;
+}
+
+
+/* for border message when hover*/
+/* .message__80c10.selected_fd9051, .mouse-mode.full-motion .message__80c10:hover {
+    box-shadow: inset 0 0 3px rgb(var(--foreground));
+} */

@@ -1,0 +1,33 @@
+/**
+ * @name EverforestSoft
+ * @author 5TAHUR5
+ * @version 1.0.0
+ * @description Everforest Soft theme.
+ * @source https://github.com/5TAHUR5/discord_themes
+*/
+
+/* palette: https://github.com/sainnhe/everforest */
+
+@import url(https://raw.githubusercontent.com/5TAHUR5/discord_themes/main/src/5TAHUR5_Discord.theme.css);
+
+:root {
+    --background: 41, 49, 54;
+    --background_alt: 51, 60, 67;
+    --background_urgent: 58, 70, 76;
+    --background_accent: 67, 79, 85;
+    --foreground: 211, 198, 170;
+    --red: 230, 126, 128;
+    --green: 167, 192, 128;
+    --yellow: 219, 188, 127;
+    --orange: 230, 152, 117;
+    --blue: 127, 187, 179;
+    --violet: 214, 153, 182;
+    --gray: 133, 146, 137;
+    --accent: 167, 192, 128;
+    --font: JetBrainsMono Nerd Font;
+}
+
+/* for border message when hover*/
+/* .message__80c10.selected_fd9051, .mouse-mode.full-motion .message__80c10:hover {
+    box-shadow: inset 0 0 3px rgb(var(--foreground));
+} */

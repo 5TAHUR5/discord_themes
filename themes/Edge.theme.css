@@ -1,0 +1,34 @@
+/**
+ * @name Edge
+ * @author 5TAHUR5
+ * @version 1.0.0
+ * @description Edge theme.
+ * @source https://github.com/5TAHUR5/discord_themes
+*/
+
+/* palette: https://github.com/sainnhe/edge */
+
+@import url(https://raw.githubusercontent.com/5TAHUR5/discord_themes/main/src/5TAHUR5_Discord.theme.css);
+
+:root {
+    --background: 36, 38, 42;
+    --background_alt: 44, 46, 52;
+    --background_urgent: 51, 53, 63;
+    --background_accent: 54, 57, 68;
+    --foreground: 197, 205, 217;
+    --red: 236, 114, 121;
+    --green: 160, 201, 128;
+    --yellow: 219, 182, 114;
+    --orange: 216, 165, 69;
+    --blue: 108, 182, 235;
+    --violet: 211, 138, 234;
+    --gray: 117, 128, 148;
+    --accent: 108, 182, 235;
+    --font: JetBrainsMono Nerd Font;
+}
+
+
+/* for border message when hover*/
+/* .message__80c10.selected_fd9051, .mouse-mode.full-motion .message__80c10:hover {
+    box-shadow: inset 0 0 3px rgb(var(--foreground));
+} */

@@ -8,7 +8,7 @@
 
 /* palette: https://github.com/sainnhe/sonokai */
 
-@import url(https://5tahur5.github.io/discord_themes/src/5TAHUR5_Discord.theme.css);
+@import url(https://raw.githubusercontent.com/5TAHUR5/discord_themes/main/src/5TAHUR5_Discord.theme.css);
 
 :root {
     --background: 24, 24, 25;
